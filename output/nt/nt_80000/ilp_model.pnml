@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="ilp" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>ilp</text>
+    </name>
+    <page id="n0">
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="5">
+        <name>
+          <text>5</text>
+        </name>
+      </place>
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="4">
+        <name>
+          <text>4</text>
+        </name>
+      </place>
+      <place id="2">
+        <name>
+          <text>2</text>
+        </name>
+      </place>
+      <place id="3">
+        <name>
+          <text>3</text>
+        </name>
+      </place>
+      <place id="6">
+        <name>
+          <text>6</text>
+        </name>
+      </place>
+      <transition id="a">
+        <name>
+          <text>a</text>
+        </name>
+      </transition>
+      <transition id="g">
+        <name>
+          <text>g</text>
+        </name>
+      </transition>
+      <transition id="▶">
+        <name>
+          <text>▶</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="d84fab34-5729-4549-a177-c82b2ca7cff0"/>
+      </transition>
+      <transition id="c">
+        <name>
+          <text>c</text>
+        </name>
+      </transition>
+      <transition id="e">
+        <name>
+          <text>e</text>
+        </name>
+      </transition>
+      <transition id="d">
+        <name>
+          <text>d</text>
+        </name>
+      </transition>
+      <transition id="b">
+        <name>
+          <text>b</text>
+        </name>
+      </transition>
+      <transition id="f">
+        <name>
+          <text>f</text>
+        </name>
+      </transition>
+      <transition id="■">
+        <name>
+          <text>■</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="4a18458f-7a41-4e9d-99f5-9a8e30b6727d"/>
+      </transition>
+      <arc id="2369847490304" source="▶" target="2"/>
+      <arc id="2369847490080" source="b" target="2"/>
+      <arc id="2369847490528" source="2" target="■"/>
+      <arc id="2369847490752" source="3" target="■"/>
+      <arc id="2369847491200" source="▶" target="4"/>
+      <arc id="2369847491424" source="5" target="d"/>
+      <arc id="2369847491872" source="d" target="6"/>
+      <arc id="2369847492096" source="6" target="■"/>
+      <arc id="2369709224496" source="■" target="sink"/>
+      <arc id="2369709224272" source="source" target="▶"/>
+      <arc id="2369847490416" source="2" target="b"/>
+      <arc id="2369847490864" source="d" target="3"/>
+      <arc id="2369847491088" source="4" target="a"/>
+      <arc id="2369847491536" source="a" target="5"/>
+      <arc id="2369847491760" source="f" target="6"/>
+      <arc id="2369847491984" source="6" target="f"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

@@ -1,0 +1,6 @@
+Algorithm Execution Times (seconds)
+================================
+alpha: 0.500
+inductive: 1.812
+heuristics: 1.249
+ilp: 22.076

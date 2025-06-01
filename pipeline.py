@@ -4,6 +4,7 @@ import time
 import os
 import csv
 
+from pm4py.algo.connectors import algorithm
 from pm4py.conformance import fitness_alignments, precision_alignments, fitness_token_based_replay, \
     precision_token_based_replay, generalization_tbr
 from pm4py.algo.discovery.alpha import algorithm as alpha_miner
@@ -89,8 +90,8 @@ def discover_models(event_log, output_dir):
 
 def calc_conformance(event_log, model, initial_marking, final_marking, algorithm_name):
     """
-    Calculate conformance metrics Alignment-Based Fitness, Token-Based Precision, Alignment-Based Precision,
-    Token-Based Precision, Token-Based Generalization.
+    Calculate conformance metrics Alignment-Based Fitness, Token-Based Fitness, Alignment-Based Precision,
+    Token-Based Precision, and Token-Based Generalization.
 
     :param event_log: PM4Py event log
     :param model: Petri net model
@@ -300,7 +301,7 @@ def main(input_folder, output_base_dir):
 
     print(f"Looking for event logs in {input_folder}...")
 
-    # Get all XES files and sort them alphabetically by filename
+    # Get all XES files
     xes_files = []
     with os.scandir(input_folder) as entries:
         for entry in entries:

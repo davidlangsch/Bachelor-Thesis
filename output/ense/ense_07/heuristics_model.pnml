@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text></text>
+    </name>
+    <page id="n0">
+      <place id="source0">
+        <name>
+          <text>source0</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="pre_f">
+        <name>
+          <text>pre_f</text>
+        </name>
+      </place>
+      <place id="pre_s">
+        <name>
+          <text>pre_s</text>
+        </name>
+      </place>
+      <place id="splace_in_c_l_0">
+        <name>
+          <text>splace_in_c_l_0</text>
+        </name>
+      </place>
+      <place id="splace_in_m_l_0">
+        <name>
+          <text>splace_in_m_l_0</text>
+        </name>
+      </place>
+      <place id="splace_in_i_l_0">
+        <name>
+          <text>splace_in_i_l_0</text>
+        </name>
+      </place>
+      <place id="splace_in_m_f_0">
+        <name>
+          <text>splace_in_m_f_0</text>
+        </name>
+      </place>
+      <place id="splace_in_q_l_0">
+        <name>
+          <text>splace_in_q_l_0</text>
+        </name>
+      </place>
+      <place id="splace_in_o_h_0">
+        <name>
+          <text>splace_in_o_h_0</text>
+        </name>
+      </place>
+      <place id="splace_in_j_f_0">
+        <name>
+          <text>splace_in_j_f_0</text>
+        </name>
+      </place>
+      <place id="pre_r">
+        <name>
+          <text>pre_r</text>
+        </name>
+      </place>
+      <place id="pre_k">
+        <name>
+          <text>pre_k</text>
+        </name>
+      </place>
+      <place id="sink0">
+        <name>
+          <text>sink0</text>
+        </name>
+      </place>
+      <place id="splace_in_i_f_0">
+        <name>
+          <text>splace_in_i_f_0</text>
+        </name>
+      </place>
+      <place id="pre_n">
+        <name>
+          <text>pre_n</text>
+        </name>
+      </place>
+      <place id="intplace_g">
+        <name>
+          <text>intplace_g</text>
+        </name>
+      </place>
+      <place id="pre_l">
+        <name>
+          <text>pre_l</text>
+        </name>
+      </place>
+      <place id="splace_in_h_f_0">
+        <name>
+          <text>splace_in_h_f_0</text>
+        </name>
+      </place>
+      <place id="pre_e">
+        <name>
+          <text>pre_e</text>
+        </name>
+      </place>
+      <place id="splace_in_c_f_0">
+        <name>
+          <text>splace_in_c_f_0</text>
+        </name>
+      </place>
+      <place id="splace_in_h_l_0">
+        <name>
+          <text>splace_in_h_l_0</text>
+        </name>
+      </place>
+      <place id="splace_in_j_l_0">
+        <name>
+          <text>splace_in_j_l_0</text>
+        </name>
+      </place>
+      <place id="splace_in_q_f_0">
+        <name>
+          <text>splace_in_q_f_0</text>
+        </name>
+      </place>
+      <place id="pre_p">
+        <name>
+          <text>pre_p</text>
+        </name>
+      </place>
+      <place id="pre_t">
+        <name>
+          <text>pre_t</text>
+        </name>
+      </place>
+      <transition id="q">
+        <name>
+          <text>q</text>
+        </name>
+      </transition>
+      <transition id="r">
+        <name>
+          <text>r</text>
+        </name>
+      </transition>
+      <transition id="p">
+        <name>
+          <text>p</text>
+        </name>
+      </transition>
+      <transition id="k">
+        <name>
+          <text>k</text>
+        </name>
+      </transition>
+      <transition id="d">
+        <name>
+          <text>d</text>
+        </name>
+      </transition>
+      <transition id="s">
+        <name>
+          <text>s</text>
+        </name>
+      </transition>
+      <transition id="a">
+        <name>
+          <text>a</text>
+        </name>
+      </transition>
+      <transition id="f">
+        <name>
+          <text>f</text>
+        </name>
+      </transition>
+      <transition id="t">
+        <name>
+          <text>t</text>
+        </name>
+      </transition>
+      <transition id="c">
+        <name>
+          <text>c</text>
+        </name>
+      </transition>
+      <transition id="n">
+        <name>
+          <text>n</text>
+        </name>
+      </transition>
+      <transition id="g">
+        <name>
+          <text>g</text>
+        </name>
+      </transition>
+      <transition id="l">
+        <name>
+          <text>l</text>
+        </name>
+      </transition>
+      <transition id="o">
+        <name>
+          <text>o</text>
+        </name>
+      </transition>
+      <transition id="e">
+        <name>
+          <text>e</text>
+        </name>
+      </transition>
+      <transition id="h">
+        <name>
+          <text>h</text>
+        </name>
+      </transition>
+      <transition id="i">
+        <name>
+          <text>i</text>
+        </name>
+      </transition>
+      <transition id="j">
+        <name>
+          <text>j</text>
+        </name>
+      </transition>
+      <transition id="m">
+        <name>
+          <text>m</text>
+        </name>
+      </transition>
+      <arc id="1628664135168" source="l" target="splace_in_h_l_0"/>
+      <arc id="1628664446464" source="intplace_g" target="o"/>
+      <arc id="1628663988752" source="j" target="pre_k"/>
+      <arc id="1628664134160" source="f" target="splace_in_h_f_0"/>
+      <arc id="1628537100832" source="pre_t" target="t"/>
+      <arc id="1628661642784" source="a" target="pre_e"/>
+      <arc id="1626783672352" source="splace_in_i_f_0" target="i"/>
+      <arc id="1628664790080" source="t" target="sink0"/>
+      <arc id="1628664134720" source="l" target="splace_in_j_l_0"/>
+      <arc id="1628664446016" source="splace_in_h_f_0" target="h"/>
+      <arc id="1628664445008" source="h" target="splace_in_o_h_0"/>
+      <arc id="1628664446576" source="splace_in_c_f_0" target="c"/>
+      <arc id="1628664135280" source="f" target="splace_in_q_f_0"/>
+      <arc id="1628664445568" source="splace_in_q_f_0" target="q"/>
+      <arc id="1628663988864" source="o" target="sink0"/>
+      <arc id="1628664134272" source="f" target="splace_in_i_f_0"/>
+      <arc id="1626783672464" source="splace_in_i_l_0" target="i"/>
+      <arc id="1628659976352" source="pre_l" target="l"/>
+      <arc id="1628661640880" source="pre_n" target="n"/>
+      <arc id="1628663989424" source="p" target="pre_r"/>
+      <arc id="1628664134832" source="f" target="splace_in_m_f_0"/>
+      <arc id="1628664446128" source="splace_in_h_l_0" target="h"/>
+      <arc id="1628664445120" source="l" target="splace_in_c_l_0"/>
+      <arc id="1628664660160" source="d" target="pre_s"/>
+      <arc id="1628663988416" source="m" target="sink0"/>
+      <arc id="1628661642448" source="pre_r" target="r"/>
+      <arc id="1628659979488" source="source0" target="a"/>
+      <arc id="1628664135392" source="l" target="splace_in_m_l_0"/>
+      <arc id="1628664445680" source="splace_in_q_l_0" target="q"/>
+      <arc id="1628663988976" source="n" target="sink0"/>
+      <arc id="1628664134384" source="r" target="sink0"/>
+      <arc id="1628659976464" source="pre_s" target="s"/>
+      <arc id="1628664446240" source="splace_in_c_l_0" target="c"/>
+      <arc id="1628664134944" source="f" target="splace_in_j_f_0"/>
+      <arc id="1628663989536" source="k" target="sink0"/>
+      <arc id="1628664445232" source="e" target="pre_f"/>
+      <arc id="1628663988528" source="i" target="sink0"/>
+      <arc id="1628661642560" source="source0" target="g"/>
+      <arc id="1628664135504" source="l" target="splace_in_q_l_0"/>
+      <arc id="1626783532880" source="intplace_g" target="d"/>
+      <arc id="1628664789856" source="s" target="pre_t"/>
+      <arc id="1628663989088" source="q" target="pre_p"/>
+      <arc id="1628664445792" source="splace_in_m_f_0" target="m"/>
+      <arc id="1628664446352" source="splace_in_o_h_0" target="o"/>
+      <arc id="1628664135056" source="l" target="splace_in_i_l_0"/>
+      <arc id="1628664445344" source="h" target="pre_n"/>
+      <arc id="1628659977136" source="pre_e" target="e"/>
+      <arc id="1628661642672" source="pre_p" target="p"/>
+      <arc id="1626783672240" source="splace_in_j_f_0" target="j"/>
+      <arc id="1628664134608" source="f" target="splace_in_c_f_0"/>
+      <arc id="1628664445904" source="splace_in_m_l_0" target="m"/>
+      <arc id="1628664789968" source="c" target="sink0"/>
+      <arc id="1628663989200" source="g" target="intplace_g"/>
+      <arc id="1628659977696" source="pre_f" target="f"/>
+      <arc id="1628664444896" source="e" target="pre_l"/>
+      <arc id="1628661642224" source="pre_k" target="k"/>
+      <arc id="1626783671792" source="splace_in_j_l_0" target="j"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink0">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

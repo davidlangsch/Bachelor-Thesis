@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="alpha_classic_net_1745310349.4641883" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>alpha_classic_net_1745310349.4641883</text>
+    </name>
+    <page id="n0">
+      <place id="start">
+        <name>
+          <text>start</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="({'a'}, {'d'})">
+        <name>
+          <text>({'a'}, {'d'})</text>
+        </name>
+      </place>
+      <place id="({'d'}, {'c'})">
+        <name>
+          <text>({'d'}, {'c'})</text>
+        </name>
+      </place>
+      <place id="end">
+        <name>
+          <text>end</text>
+        </name>
+      </place>
+      <transition id="a">
+        <name>
+          <text>a</text>
+        </name>
+      </transition>
+      <transition id="b">
+        <name>
+          <text>b</text>
+        </name>
+      </transition>
+      <transition id="c">
+        <name>
+          <text>c</text>
+        </name>
+      </transition>
+      <transition id="e">
+        <name>
+          <text>e</text>
+        </name>
+      </transition>
+      <transition id="d">
+        <name>
+          <text>d</text>
+        </name>
+      </transition>
+      <arc id="1461357180112" source="start" target="a"/>
+      <arc id="1461357369360" source="a" target="({'a'}, {'d'})"/>
+      <arc id="1461357366320" source="e" target="end"/>
+      <arc id="1461357743952" source="start" target="e"/>
+      <arc id="1461357742992" source="c" target="end"/>
+      <arc id="1461357485168" source="({'a'}, {'d'})" target="d"/>
+      <arc id="1461355376944" source="d" target="({'d'}, {'c'})"/>
+      <arc id="1459359579632" source="({'d'}, {'c'})" target="c"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="end">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

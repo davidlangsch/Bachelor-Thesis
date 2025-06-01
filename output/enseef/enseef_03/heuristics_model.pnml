@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text></text>
+    </name>
+    <page id="n0">
+      <place id="sink0">
+        <name>
+          <text>sink0</text>
+        </name>
+      </place>
+      <place id="pre_l">
+        <name>
+          <text>pre_l</text>
+        </name>
+      </place>
+      <place id="source0">
+        <name>
+          <text>source0</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="pre_m">
+        <name>
+          <text>pre_m</text>
+        </name>
+      </place>
+      <transition id="l">
+        <name>
+          <text>l</text>
+        </name>
+      </transition>
+      <transition id="hid_2">
+        <name>
+          <text>hid_2</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="67f6bb6d-223e-4fcc-bd88-b93c6ccb6109"/>
+      </transition>
+      <transition id="f">
+        <name>
+          <text>f</text>
+        </name>
+      </transition>
+      <transition id="m">
+        <name>
+          <text>m</text>
+        </name>
+      </transition>
+      <transition id="hid_4">
+        <name>
+          <text>hid_4</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="81842c94-9703-4428-9312-a82c405fade9"/>
+      </transition>
+      <arc id="1822404947968" source="pre_m" target="m"/>
+      <arc id="1822404946960" source="pre_l" target="l"/>
+      <arc id="1822404948752" source="hid_4" target="pre_m"/>
+      <arc id="1822404947744" source="hid_2" target="pre_l"/>
+      <arc id="1822404948640" source="source0" target="hid_4"/>
+      <arc id="1822404950432" source="f" target="pre_m"/>
+      <arc id="1822404946736" source="source0" target="f"/>
+      <arc id="1822404947632" source="source0" target="hid_2"/>
+      <arc id="1822404950208" source="f" target="pre_l"/>
+      <arc id="1822404949984" source="m" target="sink0"/>
+      <arc id="1822404949872" source="l" target="sink0"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink0">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

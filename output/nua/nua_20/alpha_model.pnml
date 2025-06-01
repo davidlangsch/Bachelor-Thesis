@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="alpha_classic_net_1745927215.259967" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>alpha_classic_net_1745927215.259967</text>
+    </name>
+    <page id="n0">
+      <place id="start">
+        <name>
+          <text>start</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="({'i'}, {'j'})">
+        <name>
+          <text>({'i'}, {'j'})</text>
+        </name>
+      </place>
+      <place id="end">
+        <name>
+          <text>end</text>
+        </name>
+      </place>
+      <place id="({'p'}, {'d'})">
+        <name>
+          <text>({'p'}, {'d'})</text>
+        </name>
+      </place>
+      <place id="({'d'}, {'r'})">
+        <name>
+          <text>({'d'}, {'r'})</text>
+        </name>
+      </place>
+      <transition id="e">
+        <name>
+          <text>e</text>
+        </name>
+      </transition>
+      <transition id="k">
+        <name>
+          <text>k</text>
+        </name>
+      </transition>
+      <transition id="q">
+        <name>
+          <text>q</text>
+        </name>
+      </transition>
+      <transition id="f">
+        <name>
+          <text>f</text>
+        </name>
+      </transition>
+      <transition id="m">
+        <name>
+          <text>m</text>
+        </name>
+      </transition>
+      <transition id="d">
+        <name>
+          <text>d</text>
+        </name>
+      </transition>
+      <transition id="j">
+        <name>
+          <text>j</text>
+        </name>
+      </transition>
+      <transition id="a">
+        <name>
+          <text>a</text>
+        </name>
+      </transition>
+      <transition id="r">
+        <name>
+          <text>r</text>
+        </name>
+      </transition>
+      <transition id="n">
+        <name>
+          <text>n</text>
+        </name>
+      </transition>
+      <transition id="h">
+        <name>
+          <text>h</text>
+        </name>
+      </transition>
+      <transition id="g">
+        <name>
+          <text>g</text>
+        </name>
+      </transition>
+      <transition id="l">
+        <name>
+          <text>l</text>
+        </name>
+      </transition>
+      <transition id="b">
+        <name>
+          <text>b</text>
+        </name>
+      </transition>
+      <transition id="s">
+        <name>
+          <text>s</text>
+        </name>
+      </transition>
+      <transition id="i">
+        <name>
+          <text>i</text>
+        </name>
+      </transition>
+      <transition id="c">
+        <name>
+          <text>c</text>
+        </name>
+      </transition>
+      <transition id="p">
+        <name>
+          <text>p</text>
+        </name>
+      </transition>
+      <transition id="t">
+        <name>
+          <text>t</text>
+        </name>
+      </transition>
+      <transition id="o">
+        <name>
+          <text>o</text>
+        </name>
+      </transition>
+      <arc id="1882970376960" source="start" target="n"/>
+      <arc id="1882970380000" source="start" target="e"/>
+      <arc id="1883036156224" source="d" target="({'d'}, {'r'})"/>
+      <arc id="1882970413952" source="({'d'}, {'r'})" target="r"/>
+      <arc id="1882970644064" source="p" target="({'p'}, {'d'})"/>
+      <arc id="1882969613968" source="({'p'}, {'d'})" target="d"/>
+      <arc id="1882970207440" source="start" target="a"/>
+      <arc id="1882970754896" source="start" target="b"/>
+      <arc id="1882970755536" source="start" target="k"/>
+      <arc id="1882970492656" source="b" target="end"/>
+      <arc id="1882970190672" source="k" target="end"/>
+      <arc id="1882970189584" source="e" target="end"/>
+      <arc id="1882970268496" source="n" target="end"/>
+      <arc id="1882970272080" source="a" target="end"/>
+      <arc id="1882970909264" source="i" target="({'i'}, {'j'})"/>
+      <arc id="1882970909488" source="({'i'}, {'j'})" target="j"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="end">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="alpha_classic_net_1745276709.5794435" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>alpha_classic_net_1745276709.5794435</text>
+    </name>
+    <page id="n0">
+      <place id="({'o'}, {'p', 'i'})">
+        <name>
+          <text>({'o'}, {'p', 'i'})</text>
+        </name>
+      </place>
+      <place id="end">
+        <name>
+          <text>end</text>
+        </name>
+      </place>
+      <place id="({'h'}, {'e'})">
+        <name>
+          <text>({'h'}, {'e'})</text>
+        </name>
+      </place>
+      <place id="({'j'}, {'b'})">
+        <name>
+          <text>({'j'}, {'b'})</text>
+        </name>
+      </place>
+      <place id="({'n'}, {'p', 'i'})">
+        <name>
+          <text>({'n'}, {'p', 'i'})</text>
+        </name>
+      </place>
+      <place id="({'b'}, {'h'})">
+        <name>
+          <text>({'b'}, {'h'})</text>
+        </name>
+      </place>
+      <place id="start">
+        <name>
+          <text>start</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="({'e'}, {'j'})">
+        <name>
+          <text>({'e'}, {'j'})</text>
+        </name>
+      </place>
+      <place id="({'i'}, {'r'})">
+        <name>
+          <text>({'i'}, {'r'})</text>
+        </name>
+      </place>
+      <place id="({'o'}, {'g'})">
+        <name>
+          <text>({'o'}, {'g'})</text>
+        </name>
+      </place>
+      <place id="({'r'}, {'s'})">
+        <name>
+          <text>({'r'}, {'s'})</text>
+        </name>
+      </place>
+      <place id="({'d'}, {'f'})">
+        <name>
+          <text>({'d'}, {'f'})</text>
+        </name>
+      </place>
+      <place id="({'n'}, {'g'})">
+        <name>
+          <text>({'n'}, {'g'})</text>
+        </name>
+      </place>
+      <place id="({'n'}, {'k'})">
+        <name>
+          <text>({'n'}, {'k'})</text>
+        </name>
+      </place>
+      <place id="({'r'}, {'q'})">
+        <name>
+          <text>({'r'}, {'q'})</text>
+        </name>
+      </place>
+      <place id="({'a'}, {'d'})">
+        <name>
+          <text>({'a'}, {'d'})</text>
+        </name>
+      </place>
+      <place id="({'d'}, {'n'})">
+        <name>
+          <text>({'d'}, {'n'})</text>
+        </name>
+      </place>
+      <place id="({'f'}, {'o'})">
+        <name>
+          <text>({'f'}, {'o'})</text>
+        </name>
+      </place>
+      <place id="({'o'}, {'k'})">
+        <name>
+          <text>({'o'}, {'k'})</text>
+        </name>
+      </place>
+      <transition id="b">
+        <name>
+          <text>b</text>
+        </name>
+      </transition>
+      <transition id="o">
+        <name>
+          <text>o</text>
+        </name>
+      </transition>
+      <transition id="j">
+        <name>
+          <text>j</text>
+        </name>
+      </transition>
+      <transition id="g">
+        <name>
+          <text>g</text>
+        </name>
+      </transition>
+      <transition id="r">
+        <name>
+          <text>r</text>
+        </name>
+      </transition>
+      <transition id="q">
+        <name>
+          <text>q</text>
+        </name>
+      </transition>
+      <transition id="p">
+        <name>
+          <text>p</text>
+        </name>
+      </transition>
+      <transition id="s">
+        <name>
+          <text>s</text>
+        </name>
+      </transition>
+      <transition id="h">
+        <name>
+          <text>h</text>
+        </name>
+      </transition>
+      <transition id="m">
+        <name>
+          <text>m</text>
+        </name>
+      </transition>
+      <transition id="f">
+        <name>
+          <text>f</text>
+        </name>
+      </transition>
+      <transition id="a">
+        <name>
+          <text>a</text>
+        </name>
+      </transition>
+      <transition id="d">
+        <name>
+          <text>d</text>
+        </name>
+      </transition>
+      <transition id="c">
+        <name>
+          <text>c</text>
+        </name>
+      </transition>
+      <transition id="l">
+        <name>
+          <text>l</text>
+        </name>
+      </transition>
+      <transition id="i">
+        <name>
+          <text>i</text>
+        </name>
+      </transition>
+      <transition id="e">
+        <name>
+          <text>e</text>
+        </name>
+      </transition>
+      <transition id="n">
+        <name>
+          <text>n</text>
+        </name>
+      </transition>
+      <transition id="k">
+        <name>
+          <text>k</text>
+        </name>
+      </transition>
+      <arc id="2462136373376" source="start" target="b"/>
+      <arc id="2462136374272" source="({'d'}, {'n'})" target="n"/>
+      <arc id="2462136378752" source="({'f'}, {'o'})" target="o"/>
+      <arc id="2462136377856" source="o" target="({'o'}, {'g'})"/>
+      <arc id="2462136376064" source="({'r'}, {'s'})" target="s"/>
+      <arc id="2462136383120" source="start" target="a"/>
+      <arc id="2462136374160" source="({'a'}, {'d'})" target="d"/>
+      <arc id="2462136372368" source="({'e'}, {'j'})" target="j"/>
+      <arc id="2462136380432" source="({'h'}, {'e'})" target="e"/>
+      <arc id="2462136379536" source="({'j'}, {'b'})" target="b"/>
+      <arc id="2462136382224" source="({'o'}, {'k'})" target="k"/>
+      <arc id="2462136375840" source="k" target="end"/>
+      <arc id="2462136374048" source="s" target="end"/>
+      <arc id="2462136374944" source="a" target="({'a'}, {'d'})"/>
+      <arc id="2462136384800" source="d" target="({'d'}, {'f'})"/>
+      <arc id="2462136373152" source="({'r'}, {'q'})" target="q"/>
+      <arc id="2462136381216" source="n" target="({'n'}, {'p', 'i'})"/>
+      <arc id="2462136376736" source="({'n'}, {'p', 'i'})" target="p"/>
+      <arc id="2462136378528" source="o" target="({'o'}, {'p', 'i'})"/>
+      <arc id="2462136375728" source="q" target="end"/>
+      <arc id="2462136374832" source="g" target="end"/>
+      <arc id="2462136373040" source="({'b'}, {'h'})" target="h"/>
+      <arc id="2462136376624" source="i" target="({'i'}, {'r'})"/>
+      <arc id="2462136373936" source="r" target="({'r'}, {'s'})"/>
+      <arc id="2462136375616" source="d" target="({'d'}, {'n'})"/>
+      <arc id="2462136379200" source="e" target="({'e'}, {'j'})"/>
+      <arc id="2462136378304" source="({'i'}, {'r'})" target="r"/>
+      <arc id="2462136377408" source="j" target="({'j'}, {'b'})"/>
+      <arc id="2462136380096" source="({'n'}, {'g'})" target="g"/>
+      <arc id="2462136384464" source="b" target="end"/>
+      <arc id="2462136379088" source="p" target="end"/>
+      <arc id="2462136375504" source="({'d'}, {'f'})" target="f"/>
+      <arc id="2462136378192" source="f" target="({'f'}, {'o'})"/>
+      <arc id="2462136385360" source="({'o'}, {'g'})" target="g"/>
+      <arc id="2462136376288" source="b" target="({'b'}, {'h'})"/>
+      <arc id="2462136384352" source="h" target="({'h'}, {'e'})"/>
+      <arc id="2462136385248" source="n" target="({'n'}, {'g'})"/>
+      <arc id="2462136373600" source="n" target="({'n'}, {'k'})"/>
+      <arc id="2462136381664" source="({'n'}, {'k'})" target="k"/>
+      <arc id="2462136380768" source="o" target="({'o'}, {'k'})"/>
+      <arc id="2462136370912" source="({'o'}, {'p', 'i'})" target="i"/>
+      <arc id="2462136381552" source="r" target="({'r'}, {'q'})"/>
+      <arc id="2462136375280" source="({'n'}, {'p', 'i'})" target="i"/>
+      <arc id="2462136383344" source="({'o'}, {'p', 'i'})" target="p"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="end">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

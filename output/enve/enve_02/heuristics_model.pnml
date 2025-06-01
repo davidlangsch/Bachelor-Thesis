@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text></text>
+    </name>
+    <page id="n0">
+      <place id="source0">
+        <name>
+          <text>source0</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="pre_d">
+        <name>
+          <text>pre_d</text>
+        </name>
+      </place>
+      <place id="sink0">
+        <name>
+          <text>sink0</text>
+        </name>
+      </place>
+      <place id="intplace_d">
+        <name>
+          <text>intplace_d</text>
+        </name>
+      </place>
+      <transition id="a">
+        <name>
+          <text>a</text>
+        </name>
+      </transition>
+      <transition id="f">
+        <name>
+          <text>f</text>
+        </name>
+      </transition>
+      <transition id="b">
+        <name>
+          <text>b</text>
+        </name>
+      </transition>
+      <transition id="d">
+        <name>
+          <text>d</text>
+        </name>
+      </transition>
+      <transition id="hid_3">
+        <name>
+          <text>hid_3</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="20f0e88f-e7f9-4d49-b090-d9ceb9edb117"/>
+      </transition>
+      <arc id="2629625368256" source="source0" target="a"/>
+      <arc id="2629625378784" source="pre_d" target="d"/>
+      <arc id="2629625364896" source="a" target="pre_d"/>
+      <arc id="2629625371840" source="d" target="intplace_d"/>
+      <arc id="2629625379680" source="intplace_d" target="b"/>
+      <arc id="2629625372512" source="intplace_d" target="hid_3"/>
+      <arc id="2629625374976" source="hid_3" target="sink0"/>
+      <arc id="2629625366128" source="f" target="sink0"/>
+      <arc id="2629625372848" source="intplace_d" target="f"/>
+      <arc id="2629625367360" source="b" target="sink0"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink0">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

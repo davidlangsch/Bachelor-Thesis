@@ -1,0 +1,5 @@
+algorithm;fitness_alignments;fitness_token_based;precision_alignments;precision_token_based;generalization
+alpha;0.898984244;0.831569121;0.5;0.5;0.990592049
+inductive;0.999990025;1;1;1;0.990491454
+heuristics;0.999990025;1;1;1;0.990491454
+ilp;0.999990025;1;1;1;0.990491454

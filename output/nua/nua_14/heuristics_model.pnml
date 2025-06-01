@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text></text>
+    </name>
+    <page id="n0">
+      <place id="source0">
+        <name>
+          <text>source0</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="pre_m">
+        <name>
+          <text>pre_m</text>
+        </name>
+      </place>
+      <place id="sink0">
+        <name>
+          <text>sink0</text>
+        </name>
+      </place>
+      <place id="pre_f">
+        <name>
+          <text>pre_f</text>
+        </name>
+      </place>
+      <place id="pre_j">
+        <name>
+          <text>pre_j</text>
+        </name>
+      </place>
+      <place id="intplace_e">
+        <name>
+          <text>intplace_e</text>
+        </name>
+      </place>
+      <place id="intplace_g">
+        <name>
+          <text>intplace_g</text>
+        </name>
+      </place>
+      <transition id="hid_6">
+        <name>
+          <text>hid_6</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f0f779a8-a846-43c1-8df3-c6d03afece73"/>
+      </transition>
+      <transition id="e">
+        <name>
+          <text>e</text>
+        </name>
+      </transition>
+      <transition id="g">
+        <name>
+          <text>g</text>
+        </name>
+      </transition>
+      <transition id="n">
+        <name>
+          <text>n</text>
+        </name>
+      </transition>
+      <transition id="m">
+        <name>
+          <text>m</text>
+        </name>
+      </transition>
+      <transition id="f">
+        <name>
+          <text>f</text>
+        </name>
+      </transition>
+      <transition id="j">
+        <name>
+          <text>j</text>
+        </name>
+      </transition>
+      <transition id="hid_2">
+        <name>
+          <text>hid_2</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f2936cb9-7345-4c18-9d0f-4e4dccdccb11"/>
+      </transition>
+      <transition id="hid_3">
+        <name>
+          <text>hid_3</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="34fbcbb7-47eb-44ca-854a-4dcb3d5346f0"/>
+      </transition>
+      <transition id="hid_7">
+        <name>
+          <text>hid_7</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="ff441cf5-b870-4609-9762-01dd770bbd66"/>
+      </transition>
+      <arc id="3014885290880" source="source0" target="e"/>
+      <arc id="3014885291776" source="e" target="intplace_e"/>
+      <arc id="3014885293568" source="hid_6" target="pre_j"/>
+      <arc id="3014885292672" source="hid_7" target="sink0"/>
+      <arc id="3014885290656" source="source0" target="g"/>
+      <arc id="3014885291552" source="intplace_e" target="n"/>
+      <arc id="3014885291440" source="source0" target="hid_2"/>
+      <arc id="3014885293232" source="hid_3" target="pre_m"/>
+      <arc id="3014885290432" source="pre_m" target="m"/>
+      <arc id="3014885292224" source="intplace_e" target="hid_3"/>
+      <arc id="3014885291216" source="pre_j" target="j"/>
+      <arc id="3014885293904" source="f" target="sink0"/>
+      <arc id="3014885292112" source="n" target="sink0"/>
+      <arc id="3014885293008" source="intplace_g" target="hid_6"/>
+      <arc id="3014885291104" source="hid_2" target="pre_j"/>
+      <arc id="3014885292896" source="g" target="intplace_g"/>
+      <arc id="3014885293792" source="intplace_g" target="hid_7"/>
+      <arc id="3014885278560" source="j" target="sink0"/>
+      <arc id="3014885290096" source="pre_f" target="f"/>
+      <arc id="3014885291888" source="hid_3" target="pre_f"/>
+      <arc id="3014885292784" source="m" target="sink0"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink0">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

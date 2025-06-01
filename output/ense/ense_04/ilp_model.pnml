@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="ilp" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>ilp</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="4">
+        <name>
+          <text>4</text>
+        </name>
+      </place>
+      <place id="2">
+        <name>
+          <text>2</text>
+        </name>
+      </place>
+      <place id="3">
+        <name>
+          <text>3</text>
+        </name>
+      </place>
+      <transition id="e">
+        <name>
+          <text>e</text>
+        </name>
+      </transition>
+      <transition id="g">
+        <name>
+          <text>g</text>
+        </name>
+      </transition>
+      <transition id="p">
+        <name>
+          <text>p</text>
+        </name>
+      </transition>
+      <transition id="■">
+        <name>
+          <text>■</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="41106c34-7add-47a1-8b3e-23efab172a0a"/>
+      </transition>
+      <transition id="▶">
+        <name>
+          <text>▶</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f12f7094-9bd3-4c60-9d15-522b865d751d"/>
+      </transition>
+      <transition id="l">
+        <name>
+          <text>l</text>
+        </name>
+      </transition>
+      <transition id="q">
+        <name>
+          <text>q</text>
+        </name>
+      </transition>
+      <transition id="d">
+        <name>
+          <text>d</text>
+        </name>
+      </transition>
+      <transition id="h">
+        <name>
+          <text>h</text>
+        </name>
+      </transition>
+      <transition id="j">
+        <name>
+          <text>j</text>
+        </name>
+      </transition>
+      <transition id="a">
+        <name>
+          <text>a</text>
+        </name>
+      </transition>
+      <transition id="i">
+        <name>
+          <text>i</text>
+        </name>
+      </transition>
+      <transition id="m">
+        <name>
+          <text>m</text>
+        </name>
+      </transition>
+      <transition id="c">
+        <name>
+          <text>c</text>
+        </name>
+      </transition>
+      <transition id="b">
+        <name>
+          <text>b</text>
+        </name>
+      </transition>
+      <transition id="k">
+        <name>
+          <text>k</text>
+        </name>
+      </transition>
+      <transition id="n">
+        <name>
+          <text>n</text>
+        </name>
+      </transition>
+      <transition id="f">
+        <name>
+          <text>f</text>
+        </name>
+      </transition>
+      <transition id="o">
+        <name>
+          <text>o</text>
+        </name>
+      </transition>
+      <arc id="1626758379264" source="o" target="2"/>
+      <arc id="1626758368512" source="c" target="3"/>
+      <arc id="1626758371200" source="g" target="3"/>
+      <arc id="1626758377472" source="3" target="h"/>
+      <arc id="1626758371088" source="2" target="n"/>
+      <arc id="1626758378256" source="n" target="3"/>
+      <arc id="1626758371872" source="l" target="2"/>
+      <arc id="1626758379936" source="2" target="g"/>
+      <arc id="1626758374560" source="3" target="e"/>
+      <arc id="1626758380832" source="3" target="o"/>
+      <arc id="1626758378144" source="e" target="4"/>
+      <arc id="1626758378032" source="f" target="2"/>
+      <arc id="1626758369968" source="▶" target="2"/>
+      <arc id="1626758374448" source="a" target="3"/>
+      <arc id="1626758379824" source="p" target="3"/>
+      <arc id="1626758369072" source="3" target="l"/>
+      <arc id="1626758377920" source="j" target="2"/>
+      <arc id="1626758368960" source="b" target="3"/>
+      <arc id="1626758379712" source="d" target="3"/>
+      <arc id="1626758380608" source="3" target="m"/>
+      <arc id="1626758369744" source="h" target="2"/>
+      <arc id="1626758371536" source="source" target="▶"/>
+      <arc id="1626758365264" source="m" target="2"/>
+      <arc id="1626758377808" source="2" target="a"/>
+      <arc id="1626758380496" source="2" target="d"/>
+      <arc id="1626758378704" source="2" target="q"/>
+      <arc id="1626758368848" source="3" target="f"/>
+      <arc id="1626758369632" source="■" target="sink"/>
+      <arc id="1626758381280" source="3" target="k"/>
+      <arc id="1626758371424" source="3" target="■"/>
+      <arc id="1626758380272" source="2" target="i"/>
+      <arc id="1626758374896" source="k" target="2"/>
+      <arc id="1626758371312" source="2" target="b"/>
+      <arc id="1626758369520" source="2" target="c"/>
+      <arc id="1626758379376" source="4" target="j"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

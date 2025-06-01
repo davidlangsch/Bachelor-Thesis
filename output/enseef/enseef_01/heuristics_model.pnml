@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text></text>
+    </name>
+    <page id="n0">
+      <place id="pre_b">
+        <name>
+          <text>pre_b</text>
+        </name>
+      </place>
+      <place id="pre_d">
+        <name>
+          <text>pre_d</text>
+        </name>
+      </place>
+      <place id="sink0">
+        <name>
+          <text>sink0</text>
+        </name>
+      </place>
+      <place id="pre_f">
+        <name>
+          <text>pre_f</text>
+        </name>
+      </place>
+      <place id="pre_e">
+        <name>
+          <text>pre_e</text>
+        </name>
+      </place>
+      <place id="pre_g">
+        <name>
+          <text>pre_g</text>
+        </name>
+      </place>
+      <place id="pre_i">
+        <name>
+          <text>pre_i</text>
+        </name>
+      </place>
+      <place id="intplace_i">
+        <name>
+          <text>intplace_i</text>
+        </name>
+      </place>
+      <place id="source0">
+        <name>
+          <text>source0</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="intplace_b">
+        <name>
+          <text>intplace_b</text>
+        </name>
+      </place>
+      <place id="pre_j">
+        <name>
+          <text>pre_j</text>
+        </name>
+      </place>
+      <transition id="b">
+        <name>
+          <text>b</text>
+        </name>
+      </transition>
+      <transition id="f">
+        <name>
+          <text>f</text>
+        </name>
+      </transition>
+      <transition id="hid_10">
+        <name>
+          <text>hid_10</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="a4bd58b4-ba3f-45e8-881a-309ad1e54cd0"/>
+      </transition>
+      <transition id="a">
+        <name>
+          <text>a</text>
+        </name>
+      </transition>
+      <transition id="j">
+        <name>
+          <text>j</text>
+        </name>
+      </transition>
+      <transition id="d">
+        <name>
+          <text>d</text>
+        </name>
+      </transition>
+      <transition id="k">
+        <name>
+          <text>k</text>
+        </name>
+      </transition>
+      <transition id="hid_2">
+        <name>
+          <text>hid_2</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="7bc8f021-9015-4ada-90d9-787dae4ec5af"/>
+      </transition>
+      <transition id="i">
+        <name>
+          <text>i</text>
+        </name>
+      </transition>
+      <transition id="hid_8">
+        <name>
+          <text>hid_8</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="46ea7501-8257-47a1-ae1d-85ecb8659998"/>
+      </transition>
+      <transition id="g">
+        <name>
+          <text>g</text>
+        </name>
+      </transition>
+      <transition id="e">
+        <name>
+          <text>e</text>
+        </name>
+      </transition>
+      <transition id="h">
+        <name>
+          <text>h</text>
+        </name>
+      </transition>
+      <arc id="1822148006016" source="b" target="intplace_b"/>
+      <arc id="1822148006912" source="e" target="pre_j"/>
+      <arc id="1822148007808" source="intplace_i" target="hid_10"/>
+      <arc id="1822148008704" source="j" target="pre_b"/>
+      <arc id="1822157651344" source="pre_d" target="d"/>
+      <arc id="1822148002320" source="hid_2" target="pre_b"/>
+      <arc id="1822148003216" source="pre_i" target="i"/>
+      <arc id="1822148008592" source="k" target="pre_i"/>
+      <arc id="1822148006800" source="h" target="pre_e"/>
+      <arc id="1822148002208" source="source0" target="hid_2"/>
+      <arc id="1822148008480" source="d" target="pre_g"/>
+      <arc id="1822148006688" source="hid_8" target="sink0"/>
+      <arc id="1822157651120" source="pre_f" target="f"/>
+      <arc id="1822148002992" source="pre_g" target="g"/>
+      <arc id="1822148004784" source="f" target="pre_d"/>
+      <arc id="1822148008368" source="d" target="pre_i"/>
+      <arc id="1822148006576" source="intplace_b" target="hid_8"/>
+      <arc id="1822148004672" source="a" target="pre_f"/>
+      <arc id="1822148004560" source="pre_j" target="j"/>
+      <arc id="1822157650896" source="source0" target="a"/>
+      <arc id="1822148002768" source="pre_e" target="e"/>
+      <arc id="1822148007248" source="i" target="intplace_i"/>
+      <arc id="1822148008928" source="intplace_b" target="h"/>
+      <arc id="1822157651568" source="pre_b" target="b"/>
+      <arc id="1822148008816" source="intplace_i" target="k"/>
+      <arc id="1822148007024" source="g" target="sink0"/>
+      <arc id="1822148007920" source="hid_10" target="sink0"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink0">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>
